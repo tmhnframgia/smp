@@ -1,0 +1,16 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+    <aside id="logo" class="pull-left">
+        <%= link_to image_tag("logo.png", alt: "SMP"), root_path %>
+        <%= link_to "Storage Management Project", root_path, class: "text" %>
+      </aside>
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home",    root_path %></li>
+          <li><%= link_to "Help",    help_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
